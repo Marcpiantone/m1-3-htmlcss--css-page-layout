@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.container {
+    min-height: 100vh;
+    font-family: "Poppins";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+}
+
+nav {
+    color: white;
+    background-color: #666666;
+}
+
+main {
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color: white;
+    background-color: #666666;
+}
