@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+img {
+  box-sizing: border-box;
+  padding: 1px;
+  width: calc(100% / 3);
+}
