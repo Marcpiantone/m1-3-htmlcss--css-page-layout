@@ -5,3 +5,45 @@ body {
 .mobile-nav-button img {
   width: 18px;
 }
+.container{
+  display: flex;
+  justify-content: space-between;
+
+}
+header{
+  width: 100vh;
+}
+
+/*Mobile*/
+@media screen and (max-width: 800px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 800px) {
+  .mobile-nav {
+    display: none;
+}
+  .desktop-nav {
+    align-items: right;
+    width: 100vh;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .desktop-nav ul{
+    list-style-type: none;
+    display: flex;
+}
+.desktop-nav ul li:last-of-type {
+  margin-right: 0;
+}
+.desktop-nav li{
+  padding:10px;
+}
+}
