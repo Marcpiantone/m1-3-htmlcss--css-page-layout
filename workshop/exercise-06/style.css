@@ -11,3 +11,33 @@ body {
   text-decoration: none;
   display: inline-block;
 }
+
+.nav-dropdown:hover > .list {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  background-color: #03a9f4;
+
+}
+
+.list{
+  list-style-type: none;
+  margin: none;
+}
+
+.li:hover{
+  display: block;
+  list-style-type: none;
+  background-color: #205066;
+}
+
+
+/* position
+top
+left
+display
+margin
+list-style-type
+padding
+background-color
+:hover */
